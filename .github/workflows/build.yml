@@ -77,10 +77,9 @@ jobs:
                         "type": "mrkdwn",
                         "text": "Deployment URL : <https://dipsa41ccicd-production-1802.up.railway.app/Open Application>"
                       }
-
-                  }
                     ]
-                    }
+                  }
+                }
 
 
         env:
