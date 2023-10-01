@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Creat tag
         uses: rickstaa/action-create-tag@v1
-        id: "tag_creat"
+        id: "tag_create"
         with: 
           tag: true
           force_push_tag: true
@@ -24,7 +24,7 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           skipIfReleaseExit: true
-          tag: "latest2"
+          tag: "latest"
           artifacts: "release.tag.gz,foo/*.txt"
           bodyFile: "body.md"
 
