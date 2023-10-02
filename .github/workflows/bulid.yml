@@ -1,4 +1,4 @@
-name : Golang web example
+name : Golong web example
 on:
    push:
        branches:
